@@ -1,0 +1,13 @@
+streamlit>=1.40
+plotly>=5.20
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+statsmodels>=0.14
+xgboost>=2.0
+lightgbm>=4.0
+openpyxl>=3.1
+# Deep learning (LSTM, RNN, GRU, TCN). Jika deploy gratis kehabisan memori,
+# hapus baris ini — metode DL otomatis dilewati dan 5 metode lain tetap jalan.
+tensorflow-cpu>=2.16
